@@ -14,8 +14,10 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
         font-size: 11px;
-        text-align: center;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -24,35 +26,37 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <section class="result-summary">
-      <div class="result-summary-total">
-        <h2 class="result-summary-total-title">Your Result</h2>
-        <div class="result-summary-total-score">
-          <p class="result-summary-total-score-high-light">76</p>
-          of 100
+    <div class="la-wrap">
+      <section class="result-summary">
+        <div class="result-summary-total">
+          <h2 class="result-summary-total-title">Your Result</h2>
+          <div class="result-summary-total-score">
+            <p class="result-summary-total-score-high-light">76</p>
+            of 100
+          </div>
+          <p class="result-summary-total-evaluation">Great</p>
+          <p class="result-summary-total-explain">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
         </div>
-        <p class="result-summary-total-evaluation">Great</p>
-        <p class="result-summary-total-explain">
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
-      </div>
-      <div class="result-summary-list">
-        <h2>Summary</h2>
-        <ul>
-          <li>
-            <div>
-              <img src="" alt="" />
-              <h3></h3>
-            </div>
-            <div></div>
-          </li>
-          <li>..</li>
-          <li>..</li>
-          <li>..</li>
-          <button type="submit"></button>
-        </ul>
-      </div>
-    </section>
+        <div class="result-summary-list">
+          <h2 class="result-summary-list-title">Summary</h2>
+          <ul class="result-summary-list-content">
+            <li>
+              <h3 class="result-summary-list-contet-title">title</h3>
+              <div class="result-summary-list-content-score">
+                <p class="result-summary-list-content-score-num">rat</p>
+                /100
+              </div>
+            </li>
+            <li>..</li>
+            <li>..</li>
+            <li>..</li>
+            <button type="submit" class="move-btn">...</button>
+          </ul>
+        </div>
+      </section>
+    </div>
     <!-- Your Result 76 of 100 Great You scored higher than 65% of the people who
     have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61
     / 100 Visual 72 / 100 Continue -->

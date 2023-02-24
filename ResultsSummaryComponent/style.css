@@ -8,33 +8,51 @@
   font-family: HankenGrotesk-VariableFont, sans-serif;
   line-height: 1;
 }
-h2 {
+h2,
+h3 {
   margin: 0;
   padding: 0;
   font: inherit;
 }
 ul,
 li,
-p {
+p,
+body {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
+button {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.la-wrap {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
 .result-summary {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   margin: 0 auto;
   width: 500px;
   border-radius: 20px;
   background-color: aliceblue;
   color: white;
-  text-align: center;
 }
 .result-summary-total {
   width: 250px;
   border-radius: 20px;
   padding: 30px 50px;
   box-sizing: border-box;
+  text-align: center;
   background-color: hsl(252, 100%, 67%);
 }
 .result-summary-total .result-summary-total-title {
@@ -62,4 +80,56 @@ p {
 }
 .result-summary-total .result-summary-total-explain {
   font-size: 1.2rem;
+}
+
+.result-summary-list {
+  width: 250px;
+  padding: 30px 50px;
+  box-sizing: border-box;
+}
+.result-summary-list .result-summary-list-title {
+  font-size: 1.8rem;
+  color: black;
+  margin-bottom: 10px;
+}
+.result-summary-list .result-summary-list-content {
+  width: 100%;
+}
+.result-summary-list .result-summary-list-content li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  vertical-align: center;
+  background-color: pink;
+}
+.result-summary-list .result-summary-list-content li + li {
+  margin-top: 10px;
+}
+.result-summary-list-content .result-summary-list-contet-title::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-image: url(./assets/images/icon-reaction.svg);
+}
+.result-summary-list-content .result-summary-list-content-score-num {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 20px;
+}
+.result-summary-list-content .move-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
 }
