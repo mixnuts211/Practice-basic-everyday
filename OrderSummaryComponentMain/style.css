@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 62.5%;
+  font-weight: 500;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+img {
+  width: 100%;
+  vertical-align: top;
+}
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+button {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.la-wrap {
+  margin: 100px auto;
+  width: fit-content;
+}
+
+.card {
+  width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-main {
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+}
+.card-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: hsl(223, 47%, 23%);
+}
+.card-description {
+  margin-bottom: 20px;
+  line-height: 2.5rem;
+  color: grey;
+}
+.card-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+}
+.card-summary-icon {
+  width: 50px;
+}
+.card-summary-text {
+  flex-grow: 1;
+  text-align: left;
+}
+.card-summary-text-title {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.card-summary-text p:last-child {
+  color: grey;
+}
+.card-summary-btn {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.card-summary-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
