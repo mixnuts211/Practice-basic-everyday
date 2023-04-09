@@ -91,3 +91,24 @@ img {
   inset: 0;
   background-color: rgba(170, 92, 219, 0.5);
 }
+
+@media screen and (max-width: 1200px) {
+  .section-card {
+    flex-direction: column;
+    width: 95%;
+    text-align: center;
+  }
+  .section-card-text {
+    width: 100%;
+    padding: 50px;
+  }
+  .section-card-img {
+    width: 100%;
+    order: -1;
+  }
+  .data-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
