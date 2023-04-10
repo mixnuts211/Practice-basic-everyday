@@ -1,3 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+body {
+  margin: 0;
+}
+h2,
+p {
+  font: inherit;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  vertical-align: top;
+}
+button {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
 :root {
-  font: 62.5%;
+  /* font-family: "Big Shoulders Display", cursive; */
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 62.5%;
+}
+
+.la-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
+.card-cont {
+  display: flex;
+  width: 925px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card-cont .card {
+  padding: 50px;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+.card-cont .card:first-child {
+  background-color: hsl(31, 77%, 52%);
+}
+.card-cont .card:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+.card-cont .card:last-child {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-cont .card-img-cont {
+  width: 50px;
+  height: 35px;
+  margin-bottom: 30px;
+}
+.card-cont .card-title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.7rem;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+}
+.card-cont .card-desc {
+  color: white;
+  margin-bottom: 80px;
+  line-height: 2.5rem;
+}
+.card-cont .card-btn {
+  width: 150px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+}
+.card:first-child .card-btn {
+  color: hsl(31, 77%, 52%);
+}
+.card:nth-child(2) .card-btn {
+  color: hsl(184, 100%, 22%);
+}
+.card:last-child .card-btn {
+  color: hsl(179, 100%, 13%);
 }
