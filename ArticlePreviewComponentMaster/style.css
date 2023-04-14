@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+body {
+  margin: 0;
+  background-color: var(--4-light-grayish-blue);
+}
+h2,
+p {
+  margin: 0;
+  font: inherit;
+}
+button {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  vertical-align: top;
+}
+:root {
+  font-size: 62.5%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  --1-very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --2-desaturated-dark-blue: hsl(214, 17%, 51%);
+  --3-grayish-blue: hsl(212, 23%, 69%);
+  --4-light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+.la-wrap {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.preview-card {
+  display: flex;
+  width: 750px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.card-img-wrap {
+  width: 274px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.card-img-wrap img {
+  height: 100%;
+  object-fit: cover;
+}
+.card-text-wrap {
+  padding: 40px;
+  box-sizing: border-box;
+}
+.card-text-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  margin-bottom: 20px;
+  color: var(--1-very-dark-grayish-blue);
+}
+.card-text-desc {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin-bottom: 20px;
+  color: var(--2-desaturated-dark-blue);
+}
+.card-text-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.card-text-info-img-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card-text-info-text {
+  flex-grow: 1;
+}
+.card-text-info-text-head {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  color: var(--1-very-dark-grayish-blue);
+}
+.card-text-info-text-sub {
+  font-size: 1.3rem;
+  color: var(--3-grayish-blue);
+}
+.card-text-info-btn {
+  width: 30px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--4-light-grayish-blue);
+}
+.card-text-info-share {
+  position: absolute;
+  right: -10%;
+  bottom: 35%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  background-color: var(--1-very-dark-grayish-blue);
+  color: var(--3-grayish-blue);
+}
+.card-text-info-share::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10%;
+  left: 45%;
+  width: 20px;
+  height: 20px;
+  background-color: var(--1-very-dark-grayish-blue);
+  rotate: 45deg;
+}
