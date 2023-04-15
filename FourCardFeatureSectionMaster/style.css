@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  margin: 0;
+  background-color: var(--very-light-gray);
+}
+h2,
+h3,
+p {
+  margin: 0;
+  font: inherit;
+}
+
+.la-wrap {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.info-cont {
+  margin-top: 100px;
+}
+.info-cont .info-text-wrap {
+  max-width: 540px;
+  margin: 0px auto;
+}
+.info-text-wrap .info-title {
+  font-size: 3.7rem;
+  line-height: 5rem;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: var(--very-dark-blue);
+}
+.info-text-wrap .info-title strong {
+  font-weight: 600;
+}
+.info-text-wrap .info-desc {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 2.8rem;
+  margin-bottom: 60px;
+  color: var(--grayish-blue);
+}
+.info-cont .info-cards-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.info-cards-wrap .info-card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.info-card-cont .info-card {
+  width: 350px;
+  padding: 25px 50px 120px 25px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 2px 5px 20px 1px var(--grayish-blue);
+}
+.info-card .info-card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.info-card .info-card-desc {
+  font-size: 1.3rem;
+  line-height: 2.6rem;
+  color: var(--grayish-blue);
+}
+.info-card-cont .supervisor-card {
+  border-top: 5px solid var(--cyan);
+  background: url(./images/icon-supervisor.svg) no-repeat right 25px bottom 25px,
+    white;
+}
+.info-card-cont .builder-card {
+  border-top: 5px solid var(--red);
+  background: url(./images/icon-team-builder.svg) no-repeat right 25px bottom
+      25px,
+    white;
+}
+.info-card-cont .karma-card {
+  border-top: 5px solid var(--orange);
+  background: url(./images/icon-karma.svg) no-repeat right 25px bottom 25px,
+    white;
+}
+.info-card-cont .calculator-card {
+  border-top: 5px solid var(--blue);
+  background: url(./images/icon-calculator.svg) no-repeat right 25px bottom 25px,
+    white;
+}
+
+@media screen and (max-width: 1300px) {
+  .info-cont .info-cards-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .info-cont {
+    margin-top: 80px;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .info-cont .info-cards-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-cont .info-text-wrap {
+    max-width: 370px;
+    margin-bottom: 20px;
+  }
+  .info-text-wrap .info-title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .info-cards-wrap .info-card-cont {
+    max-width: 350px;
+  }
+  .info-card-cont .info-card {
+    width: 100%;
+  }
+}
