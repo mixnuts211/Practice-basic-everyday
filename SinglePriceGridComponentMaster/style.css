@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+:root {
+  font-size: 62.5%;
+  font-family: "Karla", sans-serif;
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--light-gray);
+}
+h2,
+h3,
+p,
+strong {
+  margin: 0;
+  font: inherit;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.la-wrap {
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 200px;
+}
+.section-container {
+  max-width: 650px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.section {
+  padding: 4rem;
+  color: var(--light-gray);
+  font-size: 1.6rem;
+}
+.section:first-child {
+  background-color: white;
+  grid-column: 1/3;
+}
+.section:nth-child(2) {
+  background-color: var(--cyan);
+}
+.section:last-child {
+  background-color: hsla(179, 62%, 43%, 0.8);
+}
+.section-page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--cyan);
+  margin-bottom: 2.5rem;
+}
+.section-per-title {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+.section:first-child .section-per-title {
+  color: var(--bright-yellow);
+}
+.section-per-desc {
+  line-height: 2.5rem;
+}
+.section:first-child .section-per-desc {
+  color: var(--grayish-blue);
+}
+.section-price {
+  margin-bottom: 0.6rem;
+  font-size: 1.4rem;
+  color: hsla(204, 43%, 93%, 0.6);
+}
+.section-price strong {
+  font-size: 3.3rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  color: white;
+}
+.section-btn {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background-color: var(--bright-yellow);
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+}
+.section-contents-list {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: hsla(204, 43%, 93%, 0.6);
+}
+
+@media screen and (max-width: 1275px) {
+  :root {
+    font-size: 55%;
+  }
+  .la-wrap {
+    margin-top: 50px;
+  }
+  .section {
+    padding: 2.7rem;
+  }
+  .section-page-title {
+    font-size: 2.2rem;
+  }
+  .section-container {
+    grid-template-columns: 1fr;
+    margin: 0 50px;
+  }
+  .section:first-child {
+    grid-column: 1/2;
+  }
+}
