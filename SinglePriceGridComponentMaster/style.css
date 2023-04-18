@@ -111,7 +111,7 @@ button {
   color: hsla(204, 43%, 93%, 0.6);
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 720px) {
   :root {
     font-size: 55%;
   }
