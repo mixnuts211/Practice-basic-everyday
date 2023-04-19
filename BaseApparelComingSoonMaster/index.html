@@ -9,14 +9,47 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <script defer src="./app.js"></script>
   </head>
   <body>
-    <!-- We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address -->
+    <div class="la-wrap">
+      <main class="main">
+        <h1 class="main-title">
+          <img src="./images/logo.svg" alt="Base Apparel" />
+        </h1>
+        <div class="main-img-wrap-mobile"></div>
+        <section class="main-section">
+          <h2 class="main-section-title">
+            We're
+            <strong>coming soon</strong>
+          </h2>
+          <p class="main-section-desc">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form class="email-form">
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="main-section-email-input"
+              required
+            />
+            <img
+              src="./images/icon-error.svg"
+              alt=""
+              class="email-valid-error"
+            />
+            <button type="submit" class="main-section-email-btn">
+              <img src="./images/icon-arrow.svg" alt="" />
+            </button>
+          </form>
+          <p class="email-valid-message">Please provide a valid email</p>
+        </section>
+      </main>
+      <div class="main-img-wrap"></div>
+    </div>
   </body>
 </html>
