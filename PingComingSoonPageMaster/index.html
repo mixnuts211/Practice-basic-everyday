@@ -11,11 +11,45 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Ping coming soon page</title>
+    <script defer src="./app.js"></script>
   </head>
   <body>
-    <!-- We are launching soon!
-  Subscribe and get notified
-  Notify Me
-  &copy; Copyright Ping. All rights reserved. -->
+    <div class="flex-wrap">
+      <header class="header">
+        <div class="la-wrap">
+          <h1 class="header-logo">
+            <img src="./images/logo.svg" alt="Ping" />
+          </h1>
+        </div>
+      </header>
+      <main class="main">
+        <div class="la-wrap">
+          <section class="main-section">
+            <h2 class="main-section-title">
+              We are launching <strong>soon!</strong>
+            </h2>
+            <p class="main-section-desc">Subscribe and get notified</p>
+            <form class="main-section-email-form">
+              <input
+                type="email"
+                placeholder="Your email address"
+                required
+                class="main-section-email-input"
+              />
+              <p class="main-section-email-form-error">
+                Please provide a valid email address
+              </p>
+              <button class="main-section-email-btn">Notify Me</button>
+            </form>
+          </section>
+          <div class="main-img-wrap"></div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="la-wrap">
+          <p class="footer-text">&copy; Copyright Ping. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
