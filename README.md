@@ -27,3 +27,11 @@
 | 04월 19일 수 | [Base apparel coming soon](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/BaseApparelComingSoonMaster)                     | ![Apr-19-2023 22-11-59](https://user-images.githubusercontent.com/94048689/233085857-2b6c7fc4-3771-4cb7-979a-6afa1c3704fd.gif)                                               | 4hr 17mins |
 | 04월 20일 목 | [Ping coming soon page](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/PingComingSoonPageMaster)                           | ![Apr-20-2023 17-32-55](https://user-images.githubusercontent.com/94048689/233308415-d8580970-1ed4-49fd-abd0-41170e52ec2f.gif)                                               | 2hr 18mins |
 | 04월 22일 토 | [Huddle landing page](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/HuddleLandingPageWithSingleIntroductorySectionMaster) | ![Apr-22-2023 19-49-18](https://user-images.githubusercontent.com/94048689/233779701-9607164e-9a53-48d6-b42d-2537454666eb.gif)                                               | 1hr 44mins |
+
+---
+
+### Junior level
+
+| 날짜         | 코드링크                                                                                                                 | 결과물                                                                                                                                                                       | 작업시간 |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| 04월 23일 일 | [Order summary component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/StatsPreviewCardComponentMain) | <img width="250" alt="스크린샷 2023-04-11 오후 2 15 01" src="https://user-images.githubusercontent.com/94048689/231064492-9a79025c-1d70-4d3b-babb-2f0577117407.png"> | --       |
