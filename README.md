@@ -10,6 +10,12 @@
 
 - Commit 메세지는 최소화하며 Start와 Save로 시작과 끝을 구분합니다.
 
+**추가**
+
+- Junior level부터는 견고하고 꼼꼼한 코드 작성을 1순위로 가져갑니다.
+- UI단에서 작업 가능한 웹표준, 접근성 등을 고려하여 코드를 작성합니다.
+- 브라우저 크로싱은 IE를 제외합니다.
+
 ---
 
 ### Newbie level
@@ -32,9 +38,10 @@
 
 ### Junior level
 
-| 날짜         | 코드링크                                                                                               | 결과물                                                                                                                         | 작업시간   |
-| ------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| 04월 25일 화 | [News homepage main](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/NewsHomepageMain) | ![Apr-26-2023 15-57-55](https://user-images.githubusercontent.com/94048689/234494858-27f1768f-2fb3-4e01-af2a-5d3e6df798bd.gif) | 4hr 47mins |
+| 날짜         | 코드링크                                                                                                                | 결과물                                                                                                                              | 작업시간   |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 04월 25일 화 | [News homepage main](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/NewsHomepageMain)                  | ![Apr-26-2023 15-57-55](https://user-images.githubusercontent.com/94048689/234494858-27f1768f-2fb3-4e01-af2a-5d3e6df798bd.gif)      | 4hr 47mins |
+| 05월 02일 화 | [Loop studios Landing Page](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/LoopstudiosLandingPageMain) | ![Jun-20-2023 11-53-38](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/bd1c50fd-0057-4503-91da-db7b0e3f2420) | -          |
 
 ---
 
