@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+:root {
+  font-size: 62.5%;
+  font-family: "Alata", sans-serif;
+}
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 1.5rem;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font: inherit;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.la-wrap {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 6rem;
+}
+.main-menu {
+  display: flex;
+  gap: 3rem;
+  margin-left: auto;
+  color: var(--white);
+}
+.under-deco {
+  position: relative;
+}
+.under-deco::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2rem;
+  height: 0.3rem;
+  transition-duration: 0.4s;
+}
+.under-deco:hover::after {
+  background-color: var(--white);
+}
+.main-banner-section {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15rem;
+  z-index: -1;
+  aspect-ratio: 1/0.45;
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-size: cover;
+}
+.img-cover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  background-color: hsla(0, 0%, 0%, 0.4);
+}
+.main-banner-text-wrap {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  max-width: 66rem;
+  padding: 4.5rem 4.5rem 3.5rem 4.5rem;
+  border: 2px solid var(--white);
+}
+.main-banner-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 7rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--white);
+}
+
+.desc-section {
+  margin-bottom: 15rem;
+}
+.desc-section-wrap {
+  padding-top: 18rem;
+  background: url(./images/desktop/image-interactive.jpg) no-repeat;
+}
+.desc-section-text-wrap {
+  max-width: 54rem;
+  padding: 9rem 0 0 9rem;
+  margin-left: auto;
+  background-color: var(--white);
+}
+.section-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.section-desc-text {
+  margin-top: 3rem;
+  line-height: 1.6;
+  color: var(--dark-gray);
+}
+
+.list-section {
+  margin-bottom: 15rem;
+}
+.list-section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+.list-section-link {
+  margin-left: auto;
+  padding: 1rem 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  border: 2px solid var(--black);
+}
+.list-section-link:hover {
+  background-color: var(--black);
+  color: var(--white);
+  transition-duration: 0.4s;
+}
+.grid-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.list-item {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list-item-title {
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--white);
+}
+.list-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 35rem 4rem 3rem 4rem;
+}
+.list-item a:hover::before {
+  background-color: hsl(0, 0%, 100%, 0.3);
+  transition-duration: 0.4s;
+}
+
+.footer {
+  background-color: var(--black);
+}
+.footer-wrap {
+  padding: 5rem 0;
+  overflow: hidden;
+}
+.footer-logo {
+  width: 15rem;
+}
+.footer-logo img {
+  width: 100%;
+}
+.flex-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-flex-wrap {
+  margin-bottom: 2rem;
+}
+.footer-sns-link-wrap a + a {
+  margin-left: 1rem;
+}
+.footer-menu {
+  margin-right: auto;
+  margin-left: 0;
+}
+.footer-text {
+  font-size: 1.3rem;
+  color: var(--dark-gray);
+}
+
+@media screen and (max-width: 1220px) {
+  .la-wrap {
+    padding: 0 5rem;
+  }
+  .header-wrap {
+    padding-top: 4rem;
+  }
+  .main-banner-text-wrap {
+    max-width: 50rem;
+    padding: 3rem 3rem 2.5rem 3rem;
+  }
+  .main-banner-text {
+    font-size: 5rem;
+  }
+
+  .grid-wrap {
+    gap: 2rem;
+  }
+  .list-item-title {
+    font-size: 2.8rem;
+  }
+  .list-item a {
+    padding: 28rem 2.5rem 3rem 2.5rem;
+  }
+}
+@media screen and (max-width: 870px) {
+  .la-wrap {
+    padding: 0 3rem;
+  }
+  .main-banner-section {
+    aspect-ratio: 1/1.5;
+    background-image: url(./images/mobile/image-hero.jpg);
+    margin-bottom: 12rem;
+  }
+  .main-banner-text-wrap {
+    position: absolute;
+    top: 50%;
+    max-width: 900px;
+    margin-right: 3rem;
+    padding: 3rem 3rem 2rem 3rem;
+  }
+
+  .list-section {
+    position: relative;
+    margin-bottom: 25rem;
+  }
+  .list-section-header {
+    display: block;
+    text-align: center;
+  }
+  .list-section-link {
+    position: absolute;
+    bottom: -10rem;
+    margin: 0;
+    transform: translateX(-50%);
+    padding: 1.5rem 6rem;
+    font-size: 2rem;
+  }
+  .grid-wrap {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .list-item a {
+    padding: 12rem 2rem 2rem 2rem;
+  }
+}
