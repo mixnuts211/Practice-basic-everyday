@@ -20,8 +20,8 @@
 
 ### Newbie level
 
-| 날짜         | 코드링크                                                                                                                                    | 결과물                                                                                                                                                                       | 작업시간   |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 날짜         | 코드링크                                                                                                                                          | 결과물                                                                                                                                                                       | 작업시간   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | 04월 06일 목 | [Order summary component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/StatsPreviewCardComponentMain)                    | <img width="250" alt="스크린샷 2023-04-11 오후 2 15 01" src="https://user-images.githubusercontent.com/94048689/231064492-9a79025c-1d70-4d3b-babb-2f0577117407.png"> | --         |
 | 04월 09일 일 | [Stats preview card component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/StatsPreviewCardComponentMain)               | <img width="250" alt="스크린샷 2023-04-11 오후 2 14 16" src="https://user-images.githubusercontent.com/94048689/231063072-580e97b0-d54d-4216-b63d-fc420fa2a5c8.png"> | --         |
 | 04월 10일 월 | [3 Column preview card component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/3ColumnPreviewCardComponentMain)          | <img width="250" alt="스크린샷 2023-04-11 오후 2 04 10" src="https://user-images.githubusercontent.com/94048689/231061144-b38aa036-0427-41bd-80eb-7b75f22eb03a.png"> | 38mins     |
@@ -38,10 +38,11 @@
 
 ### Junior level
 
-| 날짜         | 코드링크                                                                                                                | 결과물                                                                                                                              | 작업시간   |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 날짜         | 코드링크                                                                                                                      | 결과물                                                                                                                              | 작업시간   |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | 04월 25일 화 | [News homepage main](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/NewsHomepageMain)                  | ![Apr-26-2023 15-57-55](https://user-images.githubusercontent.com/94048689/234494858-27f1768f-2fb3-4e01-af2a-5d3e6df798bd.gif)      | 4hr 47mins |
 | 05월 02일 화 | [Loop studios Landing Page](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/LoopstudiosLandingPageMain) | ![Jun-20-2023 11-53-38](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/bd1c50fd-0057-4503-91da-db7b0e3f2420) | -          |
+| 07월 18일 화 | [Expenses Chart Component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ExpensesChartComponent)      | ![Jul-18-2023 17-11-10](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3dc25970-c691-43ba-8af2-a826ef24470e) | 3hr 8mins  |
 
 ---
 
