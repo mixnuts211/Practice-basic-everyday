@@ -9,10 +9,35 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Expenses chart component</title>
+    <script defer src="./app.js"></script>
   </head>
   <body>
-    My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun Total
-    this month $478.33 +2.4% from last month
+    <div class="la-wrap">
+      <header class="main-header cont-wrap la-flex">
+        <h1 class="main-logo">
+          <img src="./images/logo.svg" alt="Expenses chart" />
+        </h1>
+        <article>
+          <h2 class="sm-title">My balance</h2>
+          <span class="balance-num">$921.48</span>
+        </article>
+      </header>
+      <section class="detail-article cont-wrap">
+        <h2 class="lg-title">Spending - Last 7 days</h2>
+        <ul id="chart-list" class="la-flex"></ul>
+        <div class="total la-flex">
+          <div>
+            <span class="sm-title">Total this month</span>
+            <span class="total-num"></span>
+          </div>
+          <div class="right-align-wrap">
+            <span class="increase-num">+2.4%</span>
+            <span class="sm-title">from last month</span>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
