@@ -154,6 +154,71 @@
 
 ---
 
+### 📝 js
+
+#### ✔️ **data- 속성 활용하기**
+
+    data-* 전역 특성은 사용자 지정 데이터 특성(custom data attributes)이라는 특성 클래스를 형성함으로써 임의의 데이터를 스크립트로 HTML과 DOM 사이에서 교환할 수 있는 방법입니다. - 출처 MDN
+
+이를 사용해 상태에 따른 설정을 수 있습니다.
+
+1. 그래프를 나타내는 다음과 같은 마크업이 있습니다. 이 그래프들은 `data-amount-rate`가 `nomal`인 상태입니다.
+
+```html
+<li>
+  <div class="chart-bar" data-amount-rate="nomal"></div>
+</li>
+<li>
+  <div class="chart-bar" data-amount-rate="nomal"></div>
+</li>
+<li>
+  <div class="chart-bar" data-amount-rate="nomal"></div>
+</li>
+```
+
+2. 이 중 수치가 가장 큰 그래프는 `data-amount-rate`를 `most`로 표현할 예정입니다.
+3. `data-amount-rate`의 값에 따라 어떤 스타일을 보여줄지 CSS를 지정해줍니다.
+
+```css
+.chart-bar[data-amount-rate="nomal"] {
+  background-color: var(--soft-red);
+}
+.chart-bar[data-amount-rate="most"] {
+  background-color: var(--cyan);
+}
+```
+
+4. `dataset`을 사용해 HTML의 data- 속성 값을 바꿔줄 수 있습니다. 지금 예시에선 `data-amount-rate`가 `nomal`로 기본 세팅되어 있으므로 수치가 가장 큰 그래프의 DOM을 잡아오고, 해당 data- 속성의 값을 `most`로 변경해줍니다.
+
+```js
+수치가가장큰li.querySelector(".chart-bar").dataset.amountRate = "most";
+```
+
+<img width="400" alt="스크린샷 2023-08-01 오전 11 27 56" src="https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/38ff36e8-2c70-48a1-985d-8dc38ed4662c">
+<br>
+
+#### ✔️ **배열을 재정렬하지 않고 가장 큰 값 구하기**
+
+주어진 Array에서 크기 순서대로 재배열하지 않고 가장 큰 값을 찾기 위해 forEach를 사용합니다. (+reduce와 관련해 추후 서술 추가 예정)
+
+```js
+const chartData = await getExpensesData();
+// fetch로 받아온 data입니다. chartData에 담아줍니다.
+
+let mostAmount = 0;
+// 구하고자하는 가장 큰 amount를 담을 변수입니다.
+// forEach로 Array를 돌면서 가장 큰 값이 나올 때 마다 변수 값이 재할당 되므로 let 키워드를 사용해줍니다.
+
+chartData.forEach((item) => {
+  if (item.amount > mostAmount) {
+    mostAmount = item.amount;
+  }
+});
+// 받아온 data인 chartData를 돌면서 amount를 비교합니다. 지금까지의 mostAmount 큰 값을 만나게되면 해당 값을 mostAmount 재할당해줍니다.
+```
+
+---
+
 ### 📝 웹 접근성
 
 #### ✔️ **논리 순서대로 마크업하고 CSS로 시각적 스타일링하기**
