@@ -3,58 +3,264 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Frontend_Mentor" />
+    <meta property="og:site_name" content="SunnySide" />
+    <meta property="og:description" content="Frontend_Mentor_SunnySide" />
+    <meta name="description" lang="ko" content="Frontend_Mentor_SunnySide" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./style.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
+    <script defer src="./app.js"></script>
   </head>
   <body>
-    <!-- About
-  Services
-  Projects
-  Contact
-
-  We are creatives
-
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact -->
+    <header class="g-header">
+      <div class="la-wrap">
+        <h1 class="main-logo">
+          <img src="./images/logo.svg" alt="Sunnyside" />
+        </h1>
+        <button type="button" aria-label="숨김 메뉴" class="menu-btn m-only">
+          <img src="./images/icon-hamburger.svg" alt="" />
+        </button>
+        <nav class="gnb">
+          <ul class="main-menu">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li class="round-link">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main-banner">
+      <div class="la-wrap">
+        <h2 class="lg-title">We are creatives</h2>
+        <button class="arrow-down">
+          <img src="./images/icon-arrow-down.svg" alt="메인으로 내려가기" />
+        </button>
+      </div>
+    </section>
+    <main>
+      <section class="category">
+        <h2 class="sr-only">회사 소개</h2>
+        <ul class="category-list">
+          <li class="bg-divided">
+            <div class="bg-divided-txt-wrap">
+              <h3 class="mid-title">Transform your brand</h3>
+              <p class="par-text">
+                We are a full-service creative agency specializing in helping
+                brands grow fast. Engage your clients through compelling visuals
+                that do most of the marketing for you.
+              </p>
+              <a href="#" class="category-list-link">Learn more</a>
+            </div>
+            <div class="bg-divided-img-wrap">
+              <picture>
+                <source
+                  srcset="./images/desktop/image-transform.jpg"
+                  media="all and (min-width: 1080px)"
+                />
+                <source
+                  srcset="./images/mobile/image-transform.jpg"
+                  media="all and (max-width: 1079px)"
+                />
+                <img src="./images/desktop/image-transform.jpg" alt="" />
+              </picture>
+            </div>
+          </li>
+          <li class="bg-divided">
+            <div class="bg-divided-txt-wrap">
+              <h3 class="mid-title">Stand out to the right audience</h3>
+              <p class="par-text">
+                Using a collaborative formula of designers, researchers,
+                photographers, videographers, and copywriters, we’ll build and
+                extend your brand in digital places.
+              </p>
+              <a href="#" class="category-list-link">Learn more</a>
+            </div>
+            <div class="bg-divided-img-wrap">
+              <picture>
+                <source
+                  srcset="./images/desktop/image-stand-out.jpg"
+                  media="all and (min-width: 1080px)"
+                />
+                <source
+                  srcset="./images/mobile/image-stand-out.jpg"
+                  media="all and (max-width: 1079px)"
+                />
+                <img src="./images/desktop/image-stand-out.jpg" alt="" />
+              </picture>
+            </div>
+          </li>
+          <li class="bg-green bg-muti">
+            <h3 class="mid-title">Graphic design</h3>
+            <p class="par-text">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </li>
+          <li class="bg-blue bg-muti">
+            <h3 class="mid-title">Photography</h3>
+            <p class="par-text">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="review">
+        <div class="la-wrap">
+          <h2 class="sm-title">Client testimonials</h2>
+          <ul class="review-list">
+            <li>
+              <div class="review-text-wrap">
+                <span class="point-txt">Emily R.</span>
+                <span class="sub-txt">Marketing Director</span>
+              </div>
+              <div class="round-img-wrap">
+                <img src="./images/image-emily.jpg" alt="리뷰어 프로필 사진" />
+              </div>
+              <p class="par-text">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+            </li>
+            <li>
+              <div class="review-text-wrap">
+                <span class="point-txt">Thomas S.</span>
+                <span class="sub-txt">Chief Operating Officer</span>
+              </div>
+              <div class="round-img-wrap">
+                <img src="./images/image-thomas.jpg" alt="리뷰어 프로필 사진" />
+              </div>
+              <p class="par-text">
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+            </li>
+            <li>
+              <div class="review-text-wrap">
+                <span class="point-txt">Jennie F.</span>
+                <span class="sub-txt">Business Owner</span>
+              </div>
+              <div class="round-img-wrap">
+                <img src="./images/image-jennie.jpg" alt="리뷰어 프로필 사진" />
+              </div>
+              <p class="par-text">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <article>
+        <h2 class="sr-only">작업물 갤러리 리스트</h2>
+        <ul class="gallery-list">
+          <li>
+            <picture>
+              <source
+                srcset="./images/desktop/image-gallery-milkbottles.jpg"
+                media="all and (min-width: 1080px)"
+              />
+              <source
+                srcset="./images/mobile/image-gallery-milkbottles.jpg"
+                media="all and (max-width: 1079px)"
+              />
+              <img
+                src="./images/desktop/image-gallery-milkbottles.jpg"
+                alt=""
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source
+                srcset="./images/desktop/image-gallery-orange.jpg"
+                media="all and (min-width: 1080px)"
+              />
+              <source
+                srcset="./images/mobile/image-gallery-orange.jpg"
+                media="all and (max-width: 1078px)"
+              />
+              <img src="./images/desktop/image-gallery-orange.jpg" alt="" />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source
+                srcset="./images/desktop/image-gallery-cone.jpg"
+                media="all and (min-width: 1080px)"
+              />
+              <source
+                srcset="./images/mobile/image-gallery-cone.jpg"
+                media="all and (max-width: 1079px)"
+              />
+              <img src="./images/desktop/image-gallery-cone.jpg" alt="" />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source
+                srcset="./images/desktop/image-gallery-sugarcubes.jpg"
+                media="all and (min-width: 1080px)"
+              />
+              <source
+                srcset="./images/mobile/image-gallery-sugar-cubes.jpg"
+                media="all and (max-width: 1079px)"
+              />
+              <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="" />
+            </picture>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer class="g-footer">
+      <h2 class="footer-logo">
+        <img src="./images/logo-footer.svg" alt="" />
+      </h2>
+      <ul class="footer-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+      <ul class="sns-link">
+        <li>
+          <a href="#">
+            <img src="./images/icon-facebook.svg" alt="페이스북" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/icon-instagram.svg" alt="인스타그램" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/icon-twitter.svg" alt="트위터" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/icon-pinterest.svg" alt="핀터레스트" />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
