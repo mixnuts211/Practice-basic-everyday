@@ -47,6 +47,37 @@
 
 ## What I learned
 
+### 📝 HTML
+
+#### ✔️ **환경과 화면 사이즈에 맞는 버전의 이미지 제공하기**
+
+`picture`요소
+
+> `picture`요소는 0개 이상의 `source` 요소와 하나의 `img` 요소를 사용하여 다양한 디스플레이나 기기에 따른 대채 버전을 제공합니다. - 출처 MDN
+
+모바일에서의 웹은 최적화를 위해 데스크탑에 사용되는 큰 사이즈의 이미지가 아닌 모바일 전용 사이즈 이미지를 사용하는 경우가 있습니다.
+위의 `picture`요소를 활용하여 데스크탑 버전 이미지와 모바일 버전의 이미지를 화면 크기에 따라 전달해 줄 수 있습니다. 해당 요소는 IE에선 지원되지 않습니다.
+
+```html
+<!-- picture 안에 source와 img를 사용해줄 수 있습니다. -->
+<picture>
+  <source
+    srcset="./images/desktop/image-transform.jpg"
+    media="all and (min-width: 1080px)"
+  />
+  <!-- srcset => 해당 환경에서 사용될 이미지 입니다. -->
+  <!-- media => 어떤 환경에 적용될지를 작성하는 부분입니다. 모든 기기(all)에서 최소 1080px까지는 해당 이미지가 제공됩니다.-->
+  <source
+    srcset="./images/mobile/image-transform.jpg"
+    media="all and (max-width: 1079px)"
+  />
+  <img src="./images/desktop/image-transform.jpg" alt="" />
+  <!-- 기본적으로 제공될 이미지입니다. -->
+</picture>
+```
+
+---
+
 ### 📝 CSS
 
 #### ✔️ **`checkbox`로 아코디언 토글 구현하기**
