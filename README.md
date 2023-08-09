@@ -1,5 +1,9 @@
 # 30 UI Challenge
 
+> 반복해서 실행한 것이 곧 우리 자신이 된다. 탁월함은 하나의 사건이 아니라 습관이다. -아리스토텔레스
+
+<br>
+
 ⌨️ **작업 방식**
 
 - 본 저장소에서는 [`Frontend Mentor`](https://www.frontendmentor.io/)를 활용해 30개의 UI 제작을 연습합니다.
@@ -37,13 +41,15 @@
 
 ## Junior level
 
-| 날짜         | 코드링크                                                                                                                       | 결과물                                                                                                                              | 작업시간   |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| 04월 25일 화 | [News homepage main](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/NewsHomepageMain)                   | ![Apr-26-2023 15-57-55](https://user-images.githubusercontent.com/94048689/234494858-27f1768f-2fb3-4e01-af2a-5d3e6df798bd.gif)      | 4hr 47mins |
-| 05월 02일 화 | [Loop studios Landing Page](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/LoopstudiosLandingPageMain)  | ![Jun-20-2023 11-53-38](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/bd1c50fd-0057-4503-91da-db7b0e3f2420) | -          |
-| 07월 18일 화 | [Expenses Chart Component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ExpensesChartComponent)       | ![Jul-18-2023 17-11-10](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3dc25970-c691-43ba-8af2-a826ef24470e) | 3hr 8mins  |
-| 07월 25일 화 | [InsureLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/InsureLandingPage)                   | ![Jul-26-2023 23-02-04](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/1519f685-5cba-4228-96ba-9619e2486ba5) | 6hr 17mins |
-| 08월 02일 수 | [SunnysideAgencyLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/SunnysideAgencyLandingPage) | ![Aug-02-2023 20-41-42](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/2fbbff1b-5cad-44e6-b632-4c672c4da2b5) | 8hr 35mins |
+| 날짜         | 코드링크                                                                                                                             | 결과물                                                                                                                              | 작업시간   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 04월 25일 화 | [News homepage main](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/NewsHomepageMain)                         | ![Apr-26-2023 15-57-55](https://user-images.githubusercontent.com/94048689/234494858-27f1768f-2fb3-4e01-af2a-5d3e6df798bd.gif)      | 4hr 47mins |
+| 05월 02일 화 | [Loop studios Landing Page](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/LoopstudiosLandingPageMain)        | ![Jun-20-2023 11-53-38](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/bd1c50fd-0057-4503-91da-db7b0e3f2420) | -          |
+| 07월 18일 화 | [Expenses Chart Component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ExpensesChartComponent)             | ![Jul-18-2023 17-11-10](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3dc25970-c691-43ba-8af2-a826ef24470e) | 3hr 8mins  |
+| 07월 25일 화 | [InsureLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/InsureLandingPage)                         | ![Jul-26-2023 23-02-04](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/1519f685-5cba-4228-96ba-9619e2486ba5) | 6hr 17mins |
+| 08월 02일 수 | [SunnysideAgencyLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/SunnysideAgencyLandingPage)       | ![Aug-02-2023 20-41-42](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/2fbbff1b-5cad-44e6-b632-4c672c4da2b5) | 8hr 35mins |
+| 17mins       |
+| 08월 09일 수 | [ProjectTrackingIntroComponent](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ProjectTrackingIntroComponent) |                                                                                                                                     | 1hr 53mins |
 
 ## What I learned
 
