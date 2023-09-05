@@ -48,7 +48,8 @@
 | 07월 18일 화 | [Expenses Chart Component](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ExpensesChartComponent)             | ![Jul-18-2023 17-11-10](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3dc25970-c691-43ba-8af2-a826ef24470e) | 3hr 8mins  |
 | 07월 25일 화 | [InsureLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/InsureLandingPage)                         | ![Jul-26-2023 23-02-04](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/1519f685-5cba-4228-96ba-9619e2486ba5) | 6hr 17mins |
 | 08월 02일 수 | [SunnysideAgencyLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/SunnysideAgencyLandingPage)       | ![Aug-02-2023 20-41-42](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/2fbbff1b-5cad-44e6-b632-4c672c4da2b5) | 8hr 35mins |
-| 08월 09일 수 | [ProjectTrackingIntroComponent](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ProjectTrackingIntroComponent) |                                                                                                                                     | 1hr 53mins |
+| 08월 09일 수 | [ProjectTrackingIntroComponent](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ProjectTrackingIntroComponent) | ![Sep-05-2023 11-25-26](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/872d8478-f17a-47a4-8b6d-5417c5163857) | 1hr 53mins |
+| 09월 05일 화 | [NotificationsPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/NotificationsPage)                         | ![Sep-05-2023 11-21-39](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3d8e8858-7a5e-4fe4-b938-084c0fcc24be) | 2hr 27mins |
 
 ## What I learned
 
