@@ -1,0 +1,15 @@
+.main-header {
+  margin-bottom: 16rem;
+}
+.main-header-wrap {
+  padding: 4rem 0;
+  box-sizing: border-box;
+}
+.main-logo {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.header-link {
+  margin-left: auto;
+  font-size: 2.4rem;
+}
