@@ -4,6 +4,10 @@
 
 <br>
 
+🖥️ **브라우저에서 보기**
+
+> [30 UI Challenge](https://mixnuts211.github.io/Practice-basic-everyday/)
+
 ⌨️ **작업 방식**
 
 - 본 저장소에서는 [`Frontend Mentor`](https://www.frontendmentor.io/)를 활용해 30개의 UI 제작을 연습합니다.
