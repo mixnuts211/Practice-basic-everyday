@@ -9,17 +9,138 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./app.js"></script>
     <title>Frontend Mentor | Notifications page</title>
   </head>
   <body>
-    <!-- Notifications 3 Mark all as read Mark Webber reacted to your recent post My
-    first tournament today! 1m ago Angela Gray followed you 5m ago Jacob
-    Thompson has joined your group Chess Club 1 day ago Rizky Hasanuddin sent
-    you a private message 5 days ago Hello, thanks for setting up the Chess
-    Club. I've been a member for a few weeks now and I'm already having lots of
-    fun and improving my game. Kimberly Smith commented on your picture 1 week
-    ago Nathan Peterson reacted to your recent post 5 end-game strategies to
-    increase your win rate 2 weeks ago Anna Kim left the group Chess Club 2
-    weeks ago -->
+    <div class="la-wrap">
+      <article class="alert-cont">
+        <header class="alert-header">
+          <h2 class="component-title">
+            Notifications
+            <div class="alert-num">3</div>
+          </h2>
+          <button class="clear-btn" type="button">Mark all as read</button>
+        </header>
+        <ul class="alert-list">
+          <li data-alert="new">
+            <img
+              class="alert-list-img"
+              src="./assets/images/avatar-mark-webber.webp"
+              alt=""
+            />
+            <div class="alert-list-txt">
+              <span class="alert-list-txt-content"
+                ><strong class="bold-highlight">Mark Webber</strong> reacted to
+                your recent post
+                <strong class="bold-grey-highlight"
+                  >My first tournament today!</strong
+                ></span
+              >
+              <span class="alert-list-txt-time">1m ago</span>
+            </div>
+          </li>
+          <li data-alert="new">
+            <img
+              class="alert-list-img"
+              src="./assets/images/avatar-angela-gray.webp"
+              alt=""
+            />
+            <div class="alert-list-txt">
+              <span class="alert-list-txt-content"
+                ><strong class="bold-highlight">Angela Gray</strong> followed
+                you
+              </span>
+              <span class="alert-list-txt-time">5m ago</span>
+            </div>
+          </li>
+          <li data-alert="new">
+            <img
+              class="alert-list-img"
+              src="./assets/images/avatar-jacob-thompson.webp"
+              alt=""
+            />
+            <div class="alert-list-txt">
+              <span class="alert-list-txt-content"
+                ><strong class="bold-highlight">Jacob Thompson</strong> reacted
+                has joined your group
+                <strong class="bold-blue-highlight">Chess Club</strong></span
+              >
+              <span class="alert-list-txt-time">1 day ago</span>
+            </div>
+          </li>
+          <li data-alert="read">
+            <img
+              class="alert-list-img"
+              src="./assets/images/avatar-rizky-hasanuddin.webp"
+              alt=""
+            />
+            <div class="alert-list-txt">
+              <span class="alert-list-txt-content"
+                ><strong class="bold-highlight">Rizky Hasanuddin</strong>
+                reacted to sent you a private message
+              </span>
+              <span class="alert-list-txt-time">5 days ago</span>
+              <p class="alert-list-message-cont">
+                Hello, thanks for setting up the Chess Club. I've been a member
+                for a few weeks now and I'm already having lots of fun and
+                improving my game.
+              </p>
+            </div>
+          </li>
+          <li data-alert="read">
+            <img
+              class="alert-list-img"
+              src="./assets/images/avatar-kimberly-smith.webp"
+              alt=""
+            />
+            <div class="alert-list-txt">
+              <span class="alert-list-txt-content"
+                ><strong class="bold-highlight">Kimberly Smith</strong> followed
+                commented on your picture
+              </span>
+              <span class="alert-list-txt-time">1 week ago</span>
+            </div>
+            <img
+              class="alert-list-picture"
+              src="./assets/images/image-chess.webp"
+              alt=""
+            />
+          </li>
+          <li data-alert="read">
+            <img
+              class="alert-list-img"
+              src="./assets/images/avatar-nathan-peterson.webp"
+              alt=""
+            />
+            <div class="alert-list-txt">
+              <span class="alert-list-txt-content"
+                ><strong class="bold-highlight">Nathan Peterson</strong> reacted
+                reacted to your recent post
+                <strong class="bold-grey-highlight"
+                  >5 end-game strategies to increase your win rate</strong
+                ></span
+              >
+              <span class="alert-list-txt-time">2 weeks ago</span>
+            </div>
+          </li>
+          <li data-alert="read">
+            <img
+              class="alert-list-img"
+              src="./assets/images/avatar-anna-kim.webp"
+              alt=""
+            />
+            <div class="alert-list-txt">
+              <span class="alert-list-txt-content"
+                ><strong class="bold-highlight">Anna Kim</strong> left the group
+                <strong class="bold-blue-highlight">Chess Club</strong></span
+              >
+              <span class="alert-list-txt-time">2 weeks ago</span>
+            </div>
+          </li>
+        </ul>
+      </article>
+    </div>
   </body>
 </html>
