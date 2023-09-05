@@ -1,5 +1,5 @@
 const getWorkListData = async () => {
-  const res = await fetch("../listData.json");
+  const res = await fetch("listData.json");
   const getListData = await res.json();
   return getListData;
 };
