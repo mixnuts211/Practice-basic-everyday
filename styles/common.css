@@ -54,7 +54,11 @@ img {
 .la-wrap {
   max-width: 124rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
 }
-.la-flex {
-  display: flex;
+
+@media screen and (max-width: 797px) {
+  .la-wrap {
+    padding: 0 2.4rem;
+  }
 }
