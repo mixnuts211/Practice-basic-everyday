@@ -4,10 +4,10 @@ const getWorkListData = async () => {
   return getListData;
 };
 
-const paintWorkDataList = async () => {
+const paintNewbieWorkDataList = async () => {
   const workDataList = await getWorkListData();
-  console.log(workDataList);
-  document.querySelector(".work-list").innerHTML = workDataList.newbie
+  document.querySelector("#newbieList").innerHTML = workDataList.newbie
+    .reverse()
     .map(
       (workData) => `
     <li>
@@ -15,7 +15,9 @@ const paintWorkDataList = async () => {
             <div class="work-list-img-wrap">
                 <img src="${workData.img}" alt="${workData.title}" />
             </div>
-            <span class="work-list-txt">${workData.title}</span>
+            <p class="work-list-txt">${workData.title}</p>
+            <span class="work-list-txt-sm">작업 날짜 : ${workData.day}</span>
+            <span class="work-list-txt-sm">소요 시간 : ${workData.time}</span>
         </a>
     </li>
   `
@@ -23,4 +25,26 @@ const paintWorkDataList = async () => {
     .join("");
 };
 
-paintWorkDataList();
+const paintJuniorWorkDataList = async () => {
+  const workDataList = await getWorkListData();
+  document.querySelector("#juniorList").innerHTML = workDataList.junior
+    .reverse()
+    .map(
+      (workData) => `
+    <li>
+        <a href="${workData.link}">
+            <div class="work-list-img-wrap">
+                <img src="${workData.img}" alt="${workData.title}" />
+            </div>
+            <p class="work-list-txt">${workData.title}</p>
+            <span class="work-list-txt-sm">작업 날짜 : ${workData.day}</span>
+            <span class="work-list-txt-sm">소요 시간 : ${workData.time}</span>
+        </a>
+    </li>
+  `
+    )
+    .join("");
+};
+
+paintNewbieWorkDataList();
+paintJuniorWorkDataList();

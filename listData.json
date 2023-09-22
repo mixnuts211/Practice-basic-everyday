@@ -3,28 +3,130 @@
     {
       "link": "works/OrderSummaryComponentMain",
       "img": "https://user-images.githubusercontent.com/94048689/231064492-9a79025c-1d70-4d3b-babb-2f0577117407.png",
-      "title": "Order summary"
+      "title": "Order summary",
+      "day": "4월 6일",
+      "time": "-"
     },
     {
       "link": "works/StatsPreviewCardComponentMain",
       "img": "https://user-images.githubusercontent.com/94048689/231063072-580e97b0-d54d-4216-b63d-fc420fa2a5c8.png",
-      "title": "Stats Preview Card"
+      "title": "Stats preview card",
+      "day": "4월 09일",
+      "time": "-"
     },
     {
       "link": "works/3ColumnPreviewCardComponentMain",
       "img": "https://user-images.githubusercontent.com/94048689/231061144-b38aa036-0427-41bd-80eb-7b75f22eb03a.png",
-      "title": "3Column Preview Card"
+      "title": "3Column preview card",
+      "day": "4월 10일",
+      "time": "38분"
     },
     {
       "link": "works/ProfileCardComponentMain",
       "img": "https://user-images.githubusercontent.com/94048689/231061596-f86711bb-2e34-46ee-aace-9bb4068efdde.png",
-      "title": "3Column Preview Card"
+      "title": "Profile card component",
+      "day": "4월 11일",
+      "time": "1시간 2분"
     },
     {
       "link": "works/FAQ-AccordionCard",
       "img": "https://user-images.githubusercontent.com/94048689/231380446-0203315f-167a-4c59-8112-f52c5fef4e94.gif",
-      "title": "FAQ Accordion Card"
+      "title": "FAQ Accordion Card",
+      "day": "4월 12일",
+      "time": "1시간 26분"
+    },
+    {
+      "link": "works/ArticlePreviewComponentMaster",
+      "img": "https://user-images.githubusercontent.com/94048689/231939414-47ffca40-da2a-4341-90de-b0a8dd0bd3ad.gif",
+      "title": "Article preview component",
+      "day": "4월 14일",
+      "time": "1시간 3분"
+    },
+    {
+      "link": "works/FourCardFeatureSectionMaster",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/01fd29b0-68bd-4f7b-b68d-67662df4c13f",
+      "title": "Four card feature section",
+      "day": "4월 15일",
+      "time": "1시간 30분"
+    },
+    {
+      "link": "works/SinglePriceGridComponentMaster",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/afbf444a-79a8-44a6-ac32-c4892a95f2ea",
+      "title": "Single price grid component",
+      "day": "4월 18일",
+      "time": "1시간 20분"
+    },
+    {
+      "link": "works/BaseApparelComingSoonMaster",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/89105aa4-2c96-4ce0-a644-5cfb15756fcc",
+      "title": "Base apparel coming soon",
+      "day": "4월 19일",
+      "time": "4시간 17분"
+    },
+    {
+      "link": "works/PingComingSoonPageMaster",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/0b6c1ab1-0dc2-4397-a005-7420e1987dc1",
+      "title": "Ping coming soon page",
+      "day": "4월 20일",
+      "time": "2시간 18분"
+    },
+    {
+      "link": "works/HuddleLandingPageWithSingleIntroductorySectionMaster",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3351b22e-f872-47cc-bf54-cb93be694a32",
+      "title": "Huddle landing page",
+      "day": "4월 22일",
+      "time": "1시간 44분"
     }
   ],
-  "junior": []
+  "junior": [
+    {
+      "link": "works/NewsHomepageMain",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/67b89f09-ce38-4e16-9a49-4c63342f92fb",
+      "title": "News homepage main",
+      "day": "4월 25일",
+      "time": "4시간 47분"
+    },
+    {
+      "link": "works/LoopstudiosLandingPageMain",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/bd1c50fd-0057-4503-91da-db7b0e3f2420",
+      "title": "Loop studios landing page",
+      "day": "5월 2일",
+      "time": "-"
+    },
+    {
+      "link": "works/ExpensesChartComponent",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/f8358854-f560-4223-8036-2c8e3f9704c1",
+      "title": "Expenses chart component",
+      "day": "7월 18일",
+      "time": "3시간 8분"
+    },
+    {
+      "link": "works/InsureLandingPage",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/1519f685-5cba-4228-96ba-9619e2486ba5",
+      "title": "Insure landing page",
+      "day": "7월 25일",
+      "time": "6시간 17분"
+    },
+    {
+      "link": "works/SunnysideAgencyLandingPage",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/2fbbff1b-5cad-44e6-b632-4c672c4da2b5",
+      "title": "Sunnyside agency landing page",
+      "day": "8월 2일",
+      "time": "8시간 25분"
+    },
+    {
+      "link": "works/ProjectTrackingIntroComponent",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/872d8478-f17a-47a4-8b6d-5417c5163857",
+      "title": "Project tracking intro component",
+      "day": "8월 9일",
+      "time": "1시간 53분"
+    },
+    {
+      "link": "works/NotificationsPage",
+      "img": "https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3d8e8858-7a5e-4fe4-b938-084c0fcc24be",
+      "title": "Notifications page",
+      "day": "9월 5일",
+      "time": "2시간 27분"
+    }
+  ]
 }
