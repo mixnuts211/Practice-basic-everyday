@@ -78,6 +78,15 @@
   box-shadow: 2px 2px 20px rgba(225, 225, 225, 0.7);
   border-radius: 2rem;
 }
+.work-list li:hover .work-list-img-wrap img {
+  transform: translate(-50%, -50%) scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.work-list li:hover {
+  background-color: rgb(224, 224, 224);
+  transition-duration: 0.5s;
+}
 .work-list-txt {
   font-weight: 500;
   margin-bottom: 2rem;
@@ -100,10 +109,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.work-list-img-wrap img:hover {
-  transform: translate(-50%, -50%) scale(1.1);
-  transition-duration: 0.5s;
 }
 
 .main-footer .la-wrap {
@@ -151,5 +156,11 @@
   }
   .work-list-section + .work-list-section {
     margin: 8rem 0;
+  }
+  .work-list-txt {
+    margin-bottom: 0.8rem;
+  }
+  .work-list-txt-sm + .work-list-txt-sm {
+    margin-left: 0.8rem;
   }
 }
