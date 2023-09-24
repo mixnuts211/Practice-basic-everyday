@@ -13,7 +13,7 @@ const paintNewbieWorkDataList = async () => {
     <li>
         <a href="${workData.link}">
             <div class="work-list-img-wrap">
-                <img src="${workData.img}" alt="${workData.title}" />
+                <img src="${workData.img}" alt="${workData.title} 구현 화면 이미지"/>
             </div>
             <p class="work-list-txt">${workData.title}</p>
             <span class="work-list-txt-sm">작업 날짜 : ${workData.day}</span>
@@ -34,7 +34,7 @@ const paintJuniorWorkDataList = async () => {
     <li>
         <a href="${workData.link}">
             <div class="work-list-img-wrap">
-                <img src="${workData.img}" alt="${workData.title}" />
+                <img src="${workData.img}" alt="${workData.title} 구현 화면 이미지"/>
             </div>
             <p class="work-list-txt">${workData.title}</p>
             <span class="work-list-txt-sm">작업 날짜 : ${workData.day}</span>

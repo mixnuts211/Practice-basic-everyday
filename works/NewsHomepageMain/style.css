@@ -43,6 +43,7 @@ ol {
 }
 img {
   width: 100%;
+  height: auto;
   vertical-align: top;
 }
 a {
@@ -71,6 +72,20 @@ button {
 }
 .for-mobile {
   display: none;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.ellipsis-single {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .la-wrap {
   width: 116rem;
@@ -210,6 +225,7 @@ button {
   width: 11rem;
   height: 13rem;
   flex-shrink: 0;
+  overflow: hidden;
 }
 .main-rank-num {
   margin-bottom: 1rem;
@@ -284,23 +300,35 @@ button {
     width: 15%;
   }
   .header-hidden-menu-btn {
-    width: 10%;
+    position: relative;
+    width: 3.2rem;
+    height: 2.4rem;
+  }
+  .header-hidden-menu-btn span {
+    width: 100%;
     height: 0.3rem;
+    display: block;
     background-color: var(--very-dark-blue);
   }
   .header-hidden-menu-btn::after {
     content: "";
     display: block;
+    position: absolute;
     width: 100%;
     height: 0.3rem;
+    top: 0;
+    left: 0;
     background-color: var(--very-dark-blue);
   }
   .header-hidden-menu-btn::before {
     content: "";
     display: block;
+    position: absolute;
     width: 100%;
     height: 0.3rem;
-    margin: 1rem 0 0.7rem;
+    bottom: 0;
+    left: 0;
+    /* margin: 1rem 0 0.7rem; */
     background-color: var(--very-dark-blue);
   }
   .mobile-menu-wrap {
@@ -329,16 +357,16 @@ button {
   }
   .header-close-menu-btn {
     position: relative;
-    left: 82%;
+    left: 85%;
     top: 1rem;
-    width: 15%;
-    aspect-ratio: 1/0.6;
+    width: 3.2rem;
+    height: 2.8rem;
     margin-bottom: 2rem;
   }
   .header-close-menu-btn::before {
     content: "";
     display: block;
-    width: 90%;
+    width: 3.2rem;
     height: 0.3rem;
     background-color: var(--very-dark-blue);
     transform: rotate(45deg);
@@ -346,7 +374,7 @@ button {
   .header-close-menu-btn::after {
     content: "";
     display: block;
-    width: 90%;
+    width: 3.2rem;
     height: 0.3rem;
     background-color: var(--very-dark-blue);
     transform: rotate(-45deg);
