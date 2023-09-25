@@ -3,6 +3,7 @@
 > 반복해서 실행한 것이 곧 우리 자신이 된다. 탁월함은 하나의 사건이 아니라 습관이다. -아리스토텔레스
 
 <br>
+<br>
 
 🖥️ **브라우저에서 보기**
 
@@ -23,6 +24,7 @@
 - UI단에서 작업 가능한 웹표준, 접근성 등을 고려하여 코드를 작성합니다.
 - 브라우저 크로싱은 IE를 제외합니다.
 
+<br>
 <br>
 
 ## Newbie level
@@ -54,6 +56,10 @@
 | 08월 02일 수 | [SunnysideAgencyLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/SunnysideAgencyLandingPage)       | ![Aug-02-2023 20-41-42](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/2fbbff1b-5cad-44e6-b632-4c672c4da2b5) | 8hr 35mins |
 | 08월 09일 수 | [ProjectTrackingIntroComponent](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/ProjectTrackingIntroComponent) | ![Sep-05-2023 11-25-26](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/872d8478-f17a-47a4-8b6d-5417c5163857) | 1hr 53mins |
 | 09월 05일 화 | [NotificationsPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/NotificationsPage)                         | ![Sep-05-2023 11-21-39](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/3d8e8858-7a5e-4fe4-b938-084c0fcc24be) | 2hr 27mins |
+| 09월 25일 월 | [FyloLandingPage](https://github.com/mixnuts211/Practice-basic-everyday/tree/main/works/fyloLandingPage)                             | ![Sep-25-2023 17-46-04](https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/d8a769f0-e21d-4aa1-889d-5c24538ea079) | 4hr 3mins  |
+
+<br>
+<br>
 
 ## What I learned
 
@@ -137,7 +143,7 @@
 /* type이 checkbox인 .toggle-input가 checked가 된다면, .card-faq-text-answer은 상단에 작성된 스타일을 가지게 됩니다. */
 ```
 
-<br>
+<br><br>
 
 #### ✔️ `display : none`과 `visibility : hidden`
 
@@ -146,7 +152,7 @@
 - `display : none`의 경우 렌더링 시 화면에 존재하지 않는 요소로 처리됩니다. 즉 렌더 트리 자체에서 제외됩니다. 해당 요소의 속성이 변경될 경우, 리플로우와 리페인트를 발생시킵니다.
 - `visibility : hidden`의 경우 요소는 해당 위치에 존재하며 공간을 차지하지만, 화면에서 컨텐츠만을 숨깁니다. 해당 요소의 속성이 변경될 경우, 리페인트만 발생하게 됩니다.
 
-<br>
+<br><br>
 
 #### ✔️ **네거티브 마진 활용하기**
 
@@ -236,7 +242,7 @@
 
 <img width="400" alt="스크린샷 2023-08-01 오전 11 27 56" src="https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/38ff36e8-2c70-48a1-985d-8dc38ed4662c">
 
-<br>
+<br><br>
 
 #### ✔️ **배열을 재정렬하지 않고 가장 큰 값 구하기**
 
@@ -298,7 +304,7 @@ chartData.forEach((item) => {
 
 <img width="455" alt="order-after" src="https://github.com/mixnuts211/Practice-basic-everyday/assets/94048689/dccd24a3-6634-4c7e-b725-1e06bc69cdf5">
 
-<br>
+<br><br>
 
 #### ✔️ **button에 이름 부여해주기**
 
