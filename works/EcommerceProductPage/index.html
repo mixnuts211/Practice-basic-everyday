@@ -10,11 +10,122 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | E-commerce product page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    Collections Men Women About Contact Sneaker Company Fall Limited Edition
+    <header>
+      <div class="la-wrap">
+        <div class="header-wrap">
+          <h1 class="main-logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="sneakers" />
+            </a>
+          </h1>
+          <nav class="main-nav">
+            <ul class="main-nav-list">
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <article class="user-info">
+            <h2 class="sr-only">사용자 계정 및 장바구니 위젯</h2>
+            <button type="button" id="cart-toggle">
+              <img src="./images/icon-cart.svg" alt="cart" class="cart-img" />
+            </button>
+            <a href="#" class="user-info-link">
+              <img src="./images/image-avatar.png" alt="user image" />
+            </a>
+          </article>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="la-wrap">
+        <div class="main-view-wrap">
+          <div class="main-view-txt-wrap">
+            <span class="point-txt">Sneaker Company</span>
+            <h2 class="lg-title-txt">Fall Limited Edition Sneakers</h2>
+            <p class="phg-txt">
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+            <div class="price">
+              <p class="current-price">
+                <span>$250.00</span>
+                <span id="discount-rate" class="discount-rate">50%</span>
+              </p>
+              <p class="current-price get-discount">
+                <span>$250.00</span>
+              </p>
+            </div>
+            <div class="btn-wrap">
+              <div class="btn-num-wrap">
+                <span class="product-num">
+                  <span class="sr-only">selected product number</span>
+                  0
+                </span>
+                <button type="button" class="mins-btn">
+                  <img src="./images/icon-minus.svg" alt="minus product" />
+                </button>
+                <button type="button" class="plus-btn">
+                  <img src="./images/icon-plus.svg" alt="plus product" />
+                </button>
+              </div>
+              <button type="button" class="add-btn">Add to cart</button>
+            </div>
+          </div>
+          <div class="main-view-img-wrap">
+            <div class="slide-view">
+              <ul class="slide-img-wrap">
+                <li>
+                  <img src="./images/image-product-1.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./images/image-product-2.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./images/image-product-3.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./images/image-product-4.jpg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <nav>
+              <ul class="img-slide-nav">
+                <li data-product-img="selected">
+                  <button type="button" class="slide-nav-btn">
+                    <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+                  </button>
+                </li>
+                <li data-product-img="nomal">
+                  <button type="button" class="slide-nav-btn">
+                    <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+                  </button>
+                </li>
+                <li data-product-img="nomal">
+                  <button type="button" class="slide-nav-btn">
+                    <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+                  </button>
+                </li>
+                <li data-product-img="nomal">
+                  <button type="button" class="slide-nav-btn">
+                    <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sneaker Company Fall Limited Edition
     Sneakers These low-profile sneakers are your perfect casual wear companion.
     Featuring a durable rubber outer sole, they’ll withstand everything the
-    weather can offer. $125.00 50% $250.00 0 Add to cart
+    weather can offer. $125.00 50% $250.00 0 Add to cart -->
   </body>
 </html>
