@@ -1,4 +1,4 @@
-# 30 UI Challenge
+# UI Challenge
 
 > 반복해서 실행한 것이 곧 우리 자신이 된다. 탁월함은 하나의 사건이 아니라 습관이다. -아리스토텔레스
 
@@ -11,7 +11,7 @@
 
 ⌨️ **작업 방식**
 
-- 본 저장소에서는 [`Frontend Mentor`](https://www.frontendmentor.io/)를 활용해 30개의 UI 제작을 연습합니다.
+- 본 저장소에서는 [`Frontend Mentor`](https://www.frontendmentor.io/)를 활용해 UI 제작을 연습합니다.
 - 해당 챌린지에서 1순위로 가져가는 부분은 `빠른` 코드 작성입니다.
 - 피그마나 스케치 파일 없이 진행되므로 섬세한 px 단위의 작업은 후순위로 두거나 생략합니다.
 - 작업 시간은 VS Code extension `Waka time`을 기준으로 기록합니다.
